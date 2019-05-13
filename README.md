@@ -93,12 +93,12 @@ Alignment部分採跟HW4相同的作法，使用ORB descriptor抓出特徵點後
     
 這裡我們使用了Photoshop的魔術棒及修補工具，想辦法分離下方柵欄處且保留周圍痕跡，然後還原回正確位子上，並透過修補工具消除接縫處的不和諧，使得後至過後的圖片更接近只有目標前景─樹叢在動。
 
-![](https://i.imgur.com/Ta5EEk9.gif =1333x)
+![](https://i.imgur.com/Ta5EEk9.gif)
 
 ---
 
 ### 5. Bonus - Complete the above 3 different effects
-[TODO] 以下盡量都要附一下來源簡介or使用的演算法內容
+以下盡量都要附一下來源簡介or使用的演算法內容
 * Motion parallax - 即上面例子
 * Stop motion
     做法相當單純，我們盡量固定相機與物件的距離，以及讓相機面向的方向盡量維持在物件的中心，每隔一段角度後拍下一張圖片，然後將這些圖片串起來
@@ -108,7 +108,7 @@ Alignment部分採跟HW4相同的作法，使用ORB descriptor抓出特徵點後
 * Live photo
 
     做法與Parallax雷同，差別在這次沒有前後景，而是需要找出變動的地方(噴泉 & 湖水流動)，再與Ref photo不變背景合成，解決攝影時手震的問題
-    [TODO] gif過大，可能要手動上傳
+    gif過大，可能要手動上傳
     * Source: 可以看到畫面有些微晃動
     
     ![](qLvaL2F.gif)
