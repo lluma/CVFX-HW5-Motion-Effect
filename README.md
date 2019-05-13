@@ -102,19 +102,19 @@ Alignment部分採跟HW4相同的作法，使用ORB descriptor抓出特徵點後
 * Motion parallax - 即上面例子
 * Stop motion
     做法相當單純，我們盡量固定相機與物件的距離，以及讓相機面向的方向盡量維持在物件的中心，每隔一段角度後拍下一張圖片，然後將這些圖片串起來
-    ![](https://imgur.com/ow77LCq.gif)
+    ![](ow77LCq.gif)
     為了讓串起來的gif可以更平滑流暢，我們還使用了video stabilization工具(https://video-stabilize.com/)，讓物件的抖動程度變小。
-    ![](https://imgur.com/lSyAXtc.gif)
+    ![](lSyAXtc.gif)
 * Live photo
 
     做法與Parallax雷同，差別在這次沒有前後景，而是需要找出變動的地方(噴泉 & 湖水流動)，再與Ref photo不變背景合成，解決攝影時手震的問題
     [TODO] gif過大，可能要手動上傳
     * Source: 可以看到畫面有些微晃動
     
-    ![](https://i.imgur.com/qLvaL2F.gif)
+    ![](qLvaL2F.gif)
     
     
     * Output: 處理後的結果成功達到穩定背景、只留噴泉及湖水改變的效果
     
-    ![](https://i.imgur.com/DRIOCto.gif)
+    ![](DRIOCto.gif)
     
